@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=Libre+Baskerville&display=swap');
+
+body {
+    font-family: 'Libre Baskerville', serif;
+    background-color: #f3e9dc; 
+    color: #3e2c1c; 
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header {
+    text-align: center;
+    background-color: #d9c2a7;
+    padding: 2rem 1rem;
+    border-bottom: 3px solid #b89b74;
+}
+
+header h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.5rem;
+    margin: 0;
+    color: #3e2c1c;
+}
+
+header p {
+    font-style: italic;
+    color: #5b4636;
+}
+
+.button-container {
+  list-style: none;
+  padding: 40px;
+  width: 400px;
+  margin: 50px auto;
+  background: #5a2e0c;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+  text-align: center;
+}
+
+button {
+  display: block;
+  width: 100%;
+  margin: 10px 0;
+  padding: 15px;
+  border: none;
+  border-radius: 8px;
+  background: #5b4636;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  font-weight: bold;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+button a {
+  color: white;
+  text-decoration: none;
+  display: block;
+}
+
+button:hover {
+  background: #a16f52c9;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(0,0,0,0.3);
+}
+
+
+main {
+    max-width: 900px;
+    margin: 2rem auto;
+    background-color: #fff8f0;
+    padding: 2rem;
+    border: 2px solid #d1bfa3;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(120, 90, 50, 0.1);
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+section h2 {
+    border-bottom: 2px solid #b89b74;
+    padding-bottom: 0.5rem;
+    font-family: 'Playfair Display', serif;
+    color: #3e2c1c;
+}
+
+section h3 {
+    border-bottom: 2px solid #b89b74;
+    padding-bottom: 0.5rem;
+    font-family: 'Playfair Display', serif;
+    color: #3e2c1c;
+}
+
+footer {
+    background-color: #d9c2a7;
+    color: #3e2c1c;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 1.5rem 0;
+    border-top: 3px solid #b89b74;
+}
+
+footer div {
+    margin: 10px;
+}
+
+footer a {
+    color: #3e2c1c;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+.certificaty {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  justify-items: center; /* จัดภาพให้อยู่ตรงกลางในแต่ละช่อง */
+  padding: 20px;
+}
+
+.certificaty img {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 10px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.2);
+}
